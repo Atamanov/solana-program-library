@@ -60,3 +60,11 @@ targets = ["x86_64-unknown-linux-gnu"]
 
 [lints]
 workspace = true
+
+[patch.crates-io]
+solana-sdk = { git = "https://github.com/Atamanov/agave", version = "2.2.0", package = "solana-sdk" }
+solana-accounts-db = { git = "https://github.com/Atamanov/agave", version = "2.2.0", package = "solana-accounts-db" }
+solana-logger = { git = "https://github.com/Atamanov/agave", version = "2.2.0", package = "solana-logger" }
+agave-geyser-plugin-interface = { git = "https://github.com/Atamanov/agave", version = "2.2.0", package = "agave-geyser-plugin-interface" }
+solana-rpc-client = { git = "https://github.com/Atamanov/agave", version = "2.2.0", package = "solana-rpc-client" }
+solana-zk-sdk = { git = "https://github.com/Atamanov/agave", version = "2.2.0", package = "solana-zk-sdk" }
